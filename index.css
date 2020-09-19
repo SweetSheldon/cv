@@ -20,6 +20,17 @@ div{margin: 0;padding: 0;}
   background: url(https://i.pinimg.com/originals/aa/08/ff/aa08ffec857b922e26b0d9ef727b0fc9.jpg);
   background-size: auto;
 } */
+body{
+  max-width: none !important;
+}
+.links:link, .mail:visited, .mail:link, .mail:hover, .phone:visited, .phone:link, .phone:hover{
+  text-decoration: none;
+  color:black;
+}
+a:hover{
+  text-decoration: underline;
+  color: rgb(167, 106, 221);
+}
 img{
   position: absolute;
   z-index: -1;
@@ -57,7 +68,6 @@ img{
 .personal{
   flex-basis: 50px;
   min-width: 400px;
-
 }
 .big-text{
   font-size: 2.5em;
@@ -129,6 +139,13 @@ progress[value]::-webkit-progress-bar {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
 }
 
+.content{
+  box-shadow: 10px 10px 20px rgb(149, 149, 149);
+}
+.big-text{
+  text-shadow: 2px 2px 2px rgb(213, 213, 213);
+}
+.main-text{text-shadow: 2px 2px 1px rgb(213, 213, 213);}
 @media screen and (max-width: 1024px){
 .wrapper {
   padding: 2% 5%;

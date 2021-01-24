@@ -22,14 +22,20 @@ div{margin: 0;padding: 0;}
 } */
 body{
   max-width: none !important;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.25);
 }
+
 .links:link, .mail:visited, .mail:link, .mail:hover, .phone:visited, .phone:link, .phone:hover{
   text-decoration: none;
-  color:black;
+  color:white;
 }
 a:hover{
   text-decoration: underline;
-  color: rgb(167, 106, 221);
+  color: rgb(133, 133, 133);
+}
+a.links:visited{
+  color:grey
 }
 img{
   position: absolute;
@@ -60,7 +66,7 @@ img{
   flex-basis: 200px;
   font-size: 1em;
   flex: 1 1 auto;
-  background: rgba(120, 195, 227, 0.1);
+  background: rgba(71, 71, 71, 0.8);
   border: 1px solid rgba(0, 0, 0, 0.5);
   border-right: none;
   padding: 2%;
@@ -97,15 +103,15 @@ img{
   font-size: 1.5em;
 }
 .main{
-  background: rgba(48, 169, 238, 0.17);
-  border: 1px solid rgba(0, 0, 0, 0.5);
+  background: rgba(10, 10, 10, 0.9);
+  border: 1px solid rgba(20, 20, 20, 0.5);
 }
-.not-main{
+/* .not-main{
   border: 1px solid rgba(0, 0, 0, 0.5);
-}
+} */
 .contacts, .education, .languages{
   padding: 5%;
-  background-color: rgba(120, 195, 227, 0.22);
+  background-color:rgba(0, 0, 0, 0.8);
 }
 .skills .info{
   padding-left: 3%;
@@ -130,7 +136,7 @@ progress{
   margin: 0 0 0.22em 0;
 }
 progress[value]::-webkit-progress-value {
-  background-color: rgb(43, 24, 198);
+  background-color: rgb(68, 68, 68);
   border-radius: 20px;
 }
 progress[value]::-webkit-progress-bar {
@@ -143,9 +149,9 @@ progress[value]::-webkit-progress-bar {
   box-shadow: 10px 10px 20px rgb(149, 149, 149);
 }
 .big-text{
-  text-shadow: 2px 2px 2px rgb(213, 213, 213);
+  text-shadow: 2px 2px 2px rgb(120, 120, 120);
 }
-.main-text{text-shadow: 2px 2px 1px rgb(213, 213, 213);}
+.main-text{text-shadow: 2px 2px 1px rgb(120, 120, 120);}
 @media screen and (max-width: 1024px){
 .wrapper {
   padding: 2% 5%;
